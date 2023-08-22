@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Definindo a estrutura do nó da linked list
 struct Node
 {
   int data;
