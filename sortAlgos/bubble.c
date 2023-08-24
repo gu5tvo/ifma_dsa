@@ -50,10 +50,10 @@ void freeLinkedList(struct Node *head)
 }
 
 void bubble(struct Node *head){
-  for(;;){
+  while(1){
     int swapped = 0;
-    struct Node* current = head;
-    for(; current->next != NULL; current = current->next){
+    struct Node* current;
+    for(current = head; current->next != NULL; current = current->next){
       if(current->data > current->next->data){
         int temp = current->data;
         current->data = current->next->data;
