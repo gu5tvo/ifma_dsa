@@ -19,6 +19,7 @@ void bubble(struct Node *head){
 
 
 int main(void) {
+
   struct Node *head = NULL;
 
   insertAtBeginning(&head, 3);
@@ -30,6 +31,5 @@ int main(void) {
   printLinkedList(head);
   bubble(head);
   printLinkedList(head);
-
   return 0;
 }
